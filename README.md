@@ -1,6 +1,12 @@
 # tildes-for-lemmy-theme
 This is a theme built for the forum software Lemmy.ml inspired by(!) the design of tildes.net. 
 
+![image](https://user-images.githubusercontent.com/4322153/186302981-0e682965-2f47-4f51-85c0-1c24efdf3ec5.png)
+
+![image](https://user-images.githubusercontent.com/4322153/186303055-e54a3086-0276-474b-9075-9bec12771bb4.png)
+
+This theme also has enhanced support for mobile. 
+
 #### How to install theme on your server.
 <sub>from https://github.com/LemmyNet/lemmy-docs/blob/main/src/en/administration/theming.md</sub>
 
