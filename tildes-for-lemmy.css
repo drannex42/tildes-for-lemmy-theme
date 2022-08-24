@@ -10379,12 +10379,25 @@ a.text-dark:hover {
 
 /* CUSTOM */
 
+html {
+    line-height: 1.5;
+}
+
 body {
     background-color: #eee;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
 }
 
 a {
     color: #2482c5 !important;
+}
+
+p {
+    max-width: 40rem;
+    margin-bottom: 0.4rem;
 }
 
 .navbar .container {
@@ -10878,6 +10891,12 @@ a[title="cross-post"] {
     border-top: 1px solid #ccc;
 }
 
+
+.post-title h5 {
+    overflow-wrap: anywhere;
+    font-size: 1.2rem;
+}
+
 @media (max-width: 768px) {
     #root .mt-4.p-0 .container {
         padding-right: 20px !important;
@@ -10901,7 +10920,7 @@ a[title="cross-post"] {
         display: none !important;
     }
 
-   *[id^='comment-form-'] .row .d-flex .flex-grow-1 {
+    *[id^='comment-form-'] .row .d-flex .flex-grow-1 {
         width: 100%;
         margin-bottom: 40px;
     }
