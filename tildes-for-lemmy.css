@@ -2,7 +2,7 @@
     Title: Tildes for Lemmy Theme
     Author: Drannex42 (t. Macleod Sawyer)
     Created: 08/23/2022
-    Last Updated: 08/23/2022
+    Last Updated: 08/23/2022-3
     Description: This is a theme built for the forum software Lemmy.ml inspired by(!) the design of tildes.net. 
 
     Copyleft License, kopimi.
@@ -10892,9 +10892,43 @@ a[title="cross-post"] {
 }
 
 
-.post-title h5 {
+/* The below creates alternating + blue links */
+/* .post-title h5 {
     overflow-wrap: anywhere;
     font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+/* .post-title h5 a {
+    color: #2482c5 !important;
+} 
+
+.post-listing {
+    padding: 12px;
+    margin: 0 -10px;
+    margin-left: -10px;
+    margin-left: -10px;
+    margin-left: -15px;
+}
+
+.post-listing .list-inline {
+    margin-bottom: 0.6rem !important;
+}
+
+
+/* .post-listing:nth-of-type(2n) {
+    background-color: #f7f7f7;
+} */
+
+/* .main-content-wrapper hr.my-3 {
+    display: none;
+} */ */
+
+.md-div h1,
+.md-div h2,
+.md-div h3,
+.md-div h4 {
+    margin-top: 1.4rem !important;
 }
 
 @media (max-width: 768px) {
